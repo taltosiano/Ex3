@@ -7,7 +7,7 @@
 
 ## our project 
 
-+ The project contains the Dijkstra's algorithm who uses to find the shortest path in a weighted graph.
++ The main algorithm the project contains is the Dijkstra's algorithm who uses to find the shortest path in a weighted graph.
 
 ### Design and implement two main interfaces:
 
@@ -21,7 +21,7 @@ We built a system that builds a weighted graph by the classes:
 ### Node
 represents the set of operations applicable on a  node (vertex) in a (directional)     
  weighted graph.
-Every node has data (id-key,location,weight,info,tag) that helps us to representing the graph         in In the most accurate way. 
+Every node has data (id,pos) that helps us to representing the graph in the most accurate way. 
 
 ### Edge
 represents the set of operations applicable on a directional  edge(src,dest,weight)  in a (directional) weighted graph.
@@ -33,6 +33,19 @@ represents a Directional Weighted Graph with all his elements(Nodes,Edeges)and  
 represents a Directed (positive) Weighted Graph Theory Algorithms and including many algorithms.
 for the tsp function (Travelling salesman problem) we use the "tarjan" algoritem to solve  this problem.
 for the shortestPathDist function we use the dijkstra's algorithm to solve this problem.
+
+|function in GraphAlgo |  Description |  output |
+| ------------ | ------------ | ------------ | 
+|  def v_size() |  returns the number of nodes in the graph |  int |
+|  def e_size() |  returns the number of edges in the graph |   int |
+| def get_all_v() | return a dictionary of all the nodes in the Graph | dict  |
+| def all_in_edges_of_node(id1: int) | return a dictionary of all the nodes connected to (into) id1 |  dict |
+| def all_out_edges_of_node(id1: int) | return a dictionary of all the nodes connected from id1 |   dict |
+| def get_mc() | returns the current version of this graph, Mode Count - for testing changes in the graph |   int |
+| def add_edge(self, id1: int, id2: int, weight: float) | Adds an edge to the graph  | bool |
+| def add_node(self, node_id: int, pos: tuple = None)  |   Adds a node to the graph  |  bool |
+| def remove_node(self, node_id: int) |   Removes a node from the graph  | bool  |
+| def remove_edge(self, node_id1: int, node_id2: int)|  Removes an edge from the graph   |  bool  | 
 
 ## Performance analysis of our algorithms and comparing to our code in Ex2:
 
