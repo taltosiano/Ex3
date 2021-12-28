@@ -34,9 +34,6 @@ represents a Directed (positive) Weighted Graph Theory Algorithms and including 
 for the tsp function (Travelling salesman problem) we use the "tarjan" algoritem to solve  this problem.
 for the shortestPathDist function we use the dijkstra's algorithm to solve this problem.
 
-### How to load & run the gui
-We load the graph with the "load" button. There are a variety of actions we can perform on the graph, each button performs another action. for example: if we click on the "addNode" button, a vertex will be added to the graph. If we click on the "theShortestDist" buttoמ we will see on the screen the answer to the shortest way from node to another.
-
 ## Performance analysis of our algorithms and comparing to our code in Ex2:
 
 # Ex3
