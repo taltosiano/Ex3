@@ -65,3 +65,5 @@ for the shortestPathDist function we use the dijkstra's algorithm to solve this 
 
 ## example of check3 print Graph:
 ![check3](https://user-images.githubusercontent.com/94299489/147760531-1a3f2b79-891b-403d-94cc-0b616a127a3e.jpeg)
+
+## UML:![UML Ex3](https://user-images.githubusercontent.com/94299489/147760951-d5681db5-a2b9-46c4-9f1c-4902ee706175.jpeg)
