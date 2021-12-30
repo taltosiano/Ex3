@@ -58,9 +58,10 @@ for the shortestPathDist function we use the dijkstra's algorithm to solve this 
 | centerPoint() | Finds the node that has the shortest distance to it's farthest node |   int |
 | plot_graph() | plots the graph. | None |
 
-## Performance analysis of our algorithms and comparing to our code in Ex2: in WIKI
+### Performance analysis of our algorithms and comparing to our code in Ex2: in WIKI
 
+## example of check1 print Graph:
+![check1](https://user-images.githubusercontent.com/94299489/147760482-9045f8d5-b555-461e-a213-d55cdd258b44.jpeg)
 
-## our graph screenshot:
-
-## our uml diagram:
+## example of check3 print Graph:
+![check3](https://user-images.githubusercontent.com/94299489/147760531-1a3f2b79-891b-403d-94cc-0b616a127a3e.jpeg)
