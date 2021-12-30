@@ -61,7 +61,7 @@ for the shortestPathDist function we use the dijkstra's algorithm to solve this 
 ### Performance analysis of our algorithms and comparing to our code in Ex2: 
  in WIKI ----> https://github.com/taltosiano/Ex3.wiki.git
 
-#### Computer specifications:
+### Computer specifications:
 Computer operating system is macOS, 256 SSD Apple M1 Chip with 8‑Core CPU and 7‑Core GPU and 16‑core Neural Engine 8GB unified memory, 16 GB
 
 ## example of check1 print Graph:
